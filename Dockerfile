@@ -1,6 +1,9 @@
 # syntax=docker/dockerfile-upstream:1-labs
 FROM mcr.microsoft.com/devcontainers/base:bullseye as base
 
+ARG PROFILE
+ARG TOOLCHAIN
+
 RUN <<-EOF
   apt-get update
   apt-get install -y --no-install-recommends \
@@ -13,8 +16,8 @@ WORKDIR /home/vscode
 
 RUN <<-EOF
   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y \
-    --profile default \
-    --default-toolchain nightly-2023-03-13
+    --profile $PROFILE \
+    --default-toolchain $TOOLCHAIN
 EOF
 
 FROM base as sccache
@@ -174,9 +177,7 @@ RUN bash -s <<-EOF
 EOF
 
 
-FROM base as runtime
-
-USER vscode
+FROM base
 
 COPY --chown=vscode --from=sccache /home/vscode/.cargo/bin/sccache .cargo/bin/sccache
 COPY --chown=vscode --from=cargo-watch /home/vscode/.cargo/bin/cargo-watch .cargo/bin/cargo-watch
