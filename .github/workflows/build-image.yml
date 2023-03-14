@@ -4,6 +4,9 @@ on:
       - 'v*.*.*'
     branches:
       - main
+    paths:
+      - .github/workflows/build-image.yml
+      - src/*
 
 env:
   registry: ghcr.io
