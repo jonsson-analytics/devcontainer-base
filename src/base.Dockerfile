@@ -6,7 +6,7 @@ ARG TOOLCHAIN
 
 RUN --mount=type=cache,target=/var/cache/apk <<-EOF
   apk update
-  apk add pkgconfig cmake clang
+  apk add pkgconfig cmake clang mold
 EOF
 
 USER vscode
