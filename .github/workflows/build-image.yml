@@ -253,7 +253,7 @@ jobs:
         id: metadata
         with:
           images: |
-            ${{ env.registry }}/${{ github.repository }}
+            ${{ env.registry }}/${{ github.repository }}/profiles/full
           tags: |
             type=ref,event=branch
             type=ref,event=pr
