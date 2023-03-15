@@ -4,5 +4,5 @@ RUN --mount=type=cache,target=/home/vscode/.cargo/registry \
 bash -s <<-EOF
   sudo chown -R vscode:vscode ~/.cargo/registry
   source ~/.cargo/env
-  cargo install delta
+  cargo install git-delta
 EOF
