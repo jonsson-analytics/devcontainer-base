@@ -208,52 +208,33 @@ jobs:
 
   profile-full:
     needs:
-     - app-bacon
-     - app-bandwhich
-     - app-bat
-     - app-bottom
-     - app-broot
-     - app-cargo-info
-     - app-cargo-watch
-     - app-coreutils
-     - app-delta
-     - app-du-dust
-     - app-exa
-     - app-fd-find
-     - app-gitui
-     - app-hyperfine
-     - app-mprocs
-     - app-nu
-     - app-procs
-     - app-ripgrep
-     - app-rtx-cli
-     - app-sccache
-     - app-sd
-     - app-speedtest-rs
+      - app-bacon
+      - app-bandwhich
+      - app-bat
+      - app-bottom
+      - app-broot
+      - app-cargo-info
+      - app-cargo-watch
+      - app-coreutils
+      - app-delta
+      - app-du-dust
+      - app-exa
+      - app-fd-find
+      - app-gitui
+      - app-hyperfine
+      - app-mprocs
+      - app-nu
+      - app-procs
+      - app-ripgrep
+      - app-rtx-cli
+      - app-sccache
+      - app-sd
+      - app-speedtest-rs
+      - app-starship
+      - app-tokei
+      - app-zellij
+      - app-zoxide
 
-  app-starship:
-    needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
-    with:
-      app: starship
-
-  app-tokei:
-    needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
-    with:
-      app: tokei
-
-  app-zellij:
-    needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
-    with:
-      app: zellij
-
-  app-zoxide:
-    needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
-    with:
-      app: zoxide
     runs-on: ubuntu-latest
 
     defaults:
