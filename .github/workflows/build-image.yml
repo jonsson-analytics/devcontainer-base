@@ -52,157 +52,157 @@ jobs:
   
   app-bacon:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: bacon
 
   app-bandwhich:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: bandwhich
 
   app-bat:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: bat
 
   app-bottom:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: bottom
 
   app-broot:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: broot
 
   app-cargo-info:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: cargo-info
 
   app-cargo-watch:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: cargo-watch
 
   app-coreutils:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: coreutils
   
   app-delta:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: delta
 
   app-du-dust:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: du-dust
 
   app-exa:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: exa
 
   app-fd-find:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: fd-find
 
   app-gitui:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: gitui
 
   app-hyperfine:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: hyperfine
 
   app-mprocs:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: mprocs
 
   app-nu:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: nu
 
   app-procs:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: procs
 
   app-ripgrep:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: ripgrep
 
   app-rtx-cli:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: rtx-cli
 
   app-sccache:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: sccache
 
   app-sd:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: sd
 
   app-speedtest-rs:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: speedtest-rs
 
   app-starship:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: starship
 
   app-tokei:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: tokei
 
   app-zellij:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: zellij
 
   app-zoxide:
     needs: base
-    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml
+    uses: jonsson-analytics/devcontainer-base/.github/workflows/build-app.yml@main
     with:
       app: zoxide
 
